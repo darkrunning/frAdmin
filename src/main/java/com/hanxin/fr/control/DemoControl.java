@@ -20,4 +20,16 @@ public class DemoControl {
 		System.out.println("i am aa!!!");
 		return "aa";
 	}
+	
+	@RequestMapping("login")
+	public String login () {
+		System.out.println("i am login!!!");
+		return "login";
+	}
+	
+	@RequestMapping("index")
+	public String index () {
+		System.out.println("i am index!!!");
+		return "index";
+	}
 }
